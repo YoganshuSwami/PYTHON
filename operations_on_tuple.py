@@ -1,0 +1,8 @@
+tuple=('a','bc',78,1.23)
+tuple2=('d', 78)
+print(tuple)
+print(tuple[0])
+print(tuple[1:3])
+print(tuple[2:])
+print(tuple *2)
+print(tuple + tuple2)
