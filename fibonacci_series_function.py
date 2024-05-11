@@ -4,4 +4,4 @@ def fibonacci(n):
     return (fibonacci(n-1)+fibonacci(n-2))
 n = int(input("Enter the number of terms : "))
 for i in range(n):
-    print("Fibonacci(" , i ,") = " , fibonacci(i) )
+    print( fibonacci(i),",", end=" " )
